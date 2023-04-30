@@ -711,6 +711,46 @@ nav ul li a:hover:before {
 
 /* Media */
 
+@media (width: 1024px) {
+	#welcome {
+		height: 100%;
+		width: 100%;
+	}
+
+	footer {
+		height: 100%;
+		width: 100%;
+	}
+
+	.about-wrapper .cards {
+		display: flex;
+		justify-content: center;
+	}
+
+	.card-top img {
+		width: 50px;
+	}
+
+	.card-top h3 {
+		font-size: 18px;
+	}
+
+	.cards .about-card-row {
+		display: flex;
+		justify-content: center;
+		gap: 0;
+	}
+
+	.card {
+		width: 50%;
+	}
+
+	.card-main {
+		font-size: 11px;
+		flex-shrink: 0;
+	}
+}
+
 @media (max-width: 1000px) {
 	.burger {
 		display: flex;
@@ -765,12 +805,12 @@ nav ul li a:hover:before {
 	} 
 
 	.welcome-title {
-		font-size: 64px;
+		font-size: 57px;
 		text-align: center;
 	}
 
 	.section-text {
-		font-size: 28px;
+		font-size: 23px;
 	}
 
 	.logo img {
